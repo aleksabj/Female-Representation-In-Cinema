@@ -1,0 +1,19 @@
+cat > .gitignore << 'EOF'
+data/raw/
+
+data/raw/
+
+# Python/Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Virtual environments
+.env
+.venv
+venv/
+.python-version
+EOF
